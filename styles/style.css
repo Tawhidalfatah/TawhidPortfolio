@@ -1,9 +1,20 @@
+* {
+    font-family: 'Dancing Script', cursive;
+}
+
 h1 {
     color: blue;
-    background-color: black;;
+   
     font-size: 60px;;
 }
 
 .red {
     color : red;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20%;
 }
