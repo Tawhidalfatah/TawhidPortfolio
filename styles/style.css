@@ -1,20 +1,35 @@
 * {
-    font-family: 'Dancing Script', cursive;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    background-color: #20262E;
 }
 
 h1 {
-    color: blue;
+    color: #E9E8E8;
    
-    font-size: 60px;;
+    font-size: 48px;;
 }
 
-.red {
-    color : red;
-}
+
 
 .header {
     display: flex;
     
     justify-content: center;
     margin-top: 20%;
+}
+
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 25px;
+        line-height: 3rem;
+    }
+
+   .header {
+    text-align: center;
+    margin-top: 50%;
+   }
 }
